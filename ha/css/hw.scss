@@ -1,0 +1,139 @@
+#detail, #review{ padding-top: 5rem;}
+
+#hd #gnb{ background-color: rgba(255, 255, 255, 0.8); }
+
+#logoimg{
+    min-width: 116px;
+}
+
+#gnb{
+    .d1a{
+        font-family: "NanumSquareB";
+        color: #222;
+        font-size: 1.4rem;
+    }
+}
+
+
+.mt-space1{margin-top: 5.6rem;}
+.wrap{width:100%;max-width: 1440px;margin: 0 auto ;padding: 0 30px; }
+.board-button{
+    i{
+        color: white;
+    }
+}
+.arrow{
+    width: 100px;
+    color:black;
+    font-weight: bold;
+    background: #ffc107 url(/pjhulec/shin/img/more-btn-arrow.png) no-repeat center right 30px;
+    text-align: left;
+
+}
+.btn-wrap{
+    .btn-icon{
+        margin-left: 10px;
+        color: white !important;
+    }
+}
+
+#detail{
+    margin-bottom: 10rem;
+}
+
+#reviewes{
+    max-width: 1900px;
+    margin-bottom: 20rem;
+    .row{
+        max-width: 1900px;
+        div{
+            margin-left: 7rem;
+        }
+    }
+    #review-title{ margin-bottom: 5rem;
+        h2{ font-size: 3rem;}
+    }
+    .reviewer{
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        width: 25rem;
+
+    }
+}
+
+#faq{
+    margin-bottom: 10rem;
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+#faqContent{
+
+    .on{
+        .downArrow{display: none;}
+        .upArrow{display: block !important;}
+        dd{display: block !important; transition: 0.5s;}
+    }
+    li{
+        border-bottom: 2px solid #222;
+        border-top: 2px solid #222;
+        margin-top: -2px;
+        padding: 1rem;
+    }
+    .question{
+        button{
+            width: 80rem;
+        }
+        position: relative;
+        div{font-size: 1.5rem;}
+        .downArrow, .upArrow{
+            position: absolute;
+            top: 8%;
+            left: 80%;
+        }
+        
+    }
+    .answer{
+        text-indent: 1rem;
+        margin-top: 1rem;
+        div{
+            font-size: 1.2rem;
+        }
+        
+    }
+}
+
+#partner{
+    margin-bottom: 4rem;
+}
+
+#ft{
+    .container{
+        font-size: 12px;
+        line-height: 1.7;
+    }
+}
+
+#bgColor{
+    height: 10rem;
+    background-color: #444;
+    padding: 1.3rem;
+    span, div{
+        color: white;
+    }
+    div{
+        a{color: white;}
+        a.btn{ 
+            background-color: white;
+            margin-left: 1rem;
+        }
+    }
+}
+#detail{
+    height: 0;
+    overflow: hidden;
+}

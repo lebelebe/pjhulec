@@ -1,0 +1,28 @@
+/* 03 - contents */ 
+.contents-press {background-image: url(/images//contents/top-visual-press.jpg);}
+.contents-ebook {background-image: url(/images//contents/top-visual-ebook.jpg);}
+.contents-blog {background-image: url(/images//contents/top-visual-blog.jpg);}
+.contents-down {background-image: url(/images//contents/top-visual-down.jpg);}
+.load-contents{padding: 85px 90px;background:#F7F7F7;}
+.load-contents dt p{font-weight: 600;letter-spacing: 1.2px;}
+.load-contents dt a{display: block;line-height: 1.2;margin: 0.7rem 0;min-height:4em}
+.load-contents dd {line-height: 1.8; height:7em }
+.cont-bx{}
+.img-bx{}
+.swiper-board-main{height: 100%;}
+.swiper-contents{opacity: 0;pointer-events: none;}
+.board-main .pagination-area{display: flex;height: 100px;width: 100%;position: relative;align-items: center;}
+.board-main .swiper-control{ flex: 1;position: relative;bottom:0;z-index:3;} 
+/* .board-main .swiper-control a{display: block;position: relative; width:50%;height: auto;transform: none;margin: 0 !important;border-radius: 0 ;background:none;font-size: 0.72rem;text-align:left;padding-right: 35px;opacity: 0.5;}
+.board-main .swiper-control a b{display: block;max-height: 2rem; overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;font-weight:400;}
+.board-main .swiper-control a span{display: block; margin-top: 10px;;height: 3px;width: 100%;position: relative;;}
+.board-main .swiper-control a span::before{content: "";width: 100%;height: 1px;background:#ddd;bottom:1px;left:0;position: absolute;}
+.board-main .swiper-control a span i{width:0px;height: 3px;background:#F5A500;bottom:0px;left:0;position: absolute;}
+.board-main .swiper-control .swiper-pagination-bullet-active span i{width: 100%;transition: width 4s;transition-timing-function: linear}*/
+.board-main .board-button{display: flex; width: 202px;} 
+/* .board-main .swiper-pagination  a.swiper-pagination-bullet-active{opacity: 1;} */
+.board-main .swiper-control .swiper-pagination{color:#b2b2b2}
+.board-main .space-swiper-pn{ margin-left: 15%; width: 70%;padding-top: 2rem;}
+.board-main .space-swiper-pn i.progressing{transition-duration:3.5s !important;}
+.board-main .board-button span{width: 100px;height: 100px;background:#C4D7D7;margin-left: 1px;text-align: center;line-height: 110px;color:#fff;font-size: 2rem;cursor:pointer} 
+.board-main .board-button span:hover{background:#00a1b2}
